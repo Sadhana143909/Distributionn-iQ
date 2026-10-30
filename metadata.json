@@ -1,0 +1,8 @@
+{
+  "name": "ChainPulse AI",
+  "description": "Intelligent Supply Chain Disruption Prediction, Ripple Impact Analysis and Autonomous Recovery Management System",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

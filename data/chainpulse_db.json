@@ -1,0 +1,1314 @@
+{
+  "profiles": [
+    {
+      "id": "usr_admin",
+      "email": "president@chainpulse.ai",
+      "fullName": "Dr. Sarah Chen (President & CEO)",
+      "role": "Administrator",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "createdAt": "2026-10-30T06:25:35.818Z"
+    },
+    {
+      "id": "usr_manager",
+      "email": "manager@chainpulse.ai",
+      "fullName": "Marcus Vance (Supply Chain Director)",
+      "role": "Supply Chain Manager",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+      "createdAt": "2026-10-30T06:25:35.818Z"
+    },
+    {
+      "id": "usr_analyst",
+      "email": "analyst@chainpulse.ai",
+      "fullName": "Priya Sharma (Ops Analyst)",
+      "role": "Operations Analyst",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "createdAt": "2026-10-30T06:25:35.818Z"
+    },
+    {
+      "id": "usr_procurement",
+      "email": "procurement@chainpulse.ai",
+      "fullName": "David Mueller (Procurement)",
+      "role": "Procurement Approver",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "createdAt": "2026-10-30T06:25:35.818Z"
+    },
+    {
+      "id": "usr_operator",
+      "email": "operator@chainpulse.ai",
+      "fullName": "Rajesh Kumar (WH Operator)",
+      "role": "Warehouse Operator",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "createdAt": "2026-10-30T06:25:35.818Z"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "sup-1793354000532",
+      "supplierCode": "SUP-TEX-001",
+      "name": "Texas Micro Components",
+      "contactPerson": "Jane Austin",
+      "email": "orders@texasmicro.com",
+      "phone": "+1-512-555-0199",
+      "location": "Austin, TX",
+      "reliabilityScore": 94,
+      "status": "Active",
+      "isDemo": false,
+      "createdAt": "2026-10-30T09:53:20.532Z",
+      "updatedAt": "2026-10-30T09:53:20.532Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prd-1793354000540",
+      "productCode": "PRD-CHIP-99",
+      "name": "Automotive Microcontroller Q-100",
+      "category": "Semiconductors",
+      "description": "Automotive engine controller unit",
+      "unitCost": 85,
+      "status": "Active",
+      "isDemo": false,
+      "createdAt": "2026-10-30T09:53:20.540Z",
+      "updatedAt": "2026-10-30T09:53:20.540Z"
+    }
+  ],
+  "warehouses": [],
+  "inventory": [],
+  "shipments": [
+    {
+      "id": "shp-1793356480577",
+      "shipmentCode": "SHIP-NODEST-99",
+      "supplierId": "sup-1793354000532",
+      "productId": "prd-1793354000540",
+      "quantity": 100,
+      "sourceLocation": "Austin, TX",
+      "carrierName": "Swift Freight",
+      "status": "In Transit",
+      "trackingReference": "TRK-SHIP-NODEST-99",
+      "delayDays": 0,
+      "lorryId": "LOR-999-NODEST",
+      "driverName": "Carlos Gomez",
+      "currentLatitude": 32.7767,
+      "currentLongitude": -96.797,
+      "gpsTrackingEnabled": true,
+      "isDemo": false,
+      "createdAt": "2026-10-30T10:34:40.577Z",
+      "updatedAt": "2026-10-30T10:34:40.577Z"
+    },
+    {
+      "id": "shp_001",
+      "shipmentCode": "SHIP-001",
+      "supplierId": "sup-1793354000532",
+      "productId": "prd-1793354000540",
+      "quantity": 450,
+      "sourceLocation": "Chennai Container Freight Station, Chennai, TN, India",
+      "destinationLocation": "Bengaluru, Karnataka, India",
+      "destinationAddress": "Tech Gateway Logistics Park, 42 Outer Ring Road, Bellandur, Bengaluru, Karnataka, 560103, India",
+      "destinationLatitude": 12.9716,
+      "destinationLongitude": 77.5946,
+      "carrierName": "Deccan Express Logistics",
+      "expectedDeliveryDate": "2026-10-30",
+      "expectedDeliveryTime": "18:00",
+      "status": "In Transit",
+      "trackingReference": "TRK-SHIP-001-BLR",
+      "delayDays": 0,
+      "lorryId": "TRUCK-101",
+      "driverName": "Ravi Kumar",
+      "driverContactNumber": "+91 98450 12345",
+      "currentLatitude": 13.0827,
+      "currentLongitude": 80.2707,
+      "gpsTrackingEnabled": true,
+      "isDemo": false,
+      "createdAt": "2026-10-30T10:34:26.367Z",
+      "updatedAt": "2026-10-30T10:34:26.367Z"
+    },
+    {
+      "id": "shp-1793354000545",
+      "shipmentCode": "SHP-TX-9001",
+      "supplierId": "sup-1793354000532",
+      "productId": "prd-1793354000540",
+      "quantity": 500,
+      "sourceLocation": "Austin, TX",
+      "carrierName": "Lone Star Freight Express",
+      "status": "Delayed",
+      "trackingReference": "TRK-SHP-TX-9001",
+      "delayDays": 4,
+      "lorryId": "LOR-TX-500",
+      "driverName": "Robert Walker",
+      "currentLatitude": 30.2672,
+      "currentLongitude": -97.7431,
+      "gpsTrackingEnabled": true,
+      "isDemo": false,
+      "createdAt": "2026-10-30T09:53:20.545Z",
+      "updatedAt": "2026-10-30T09:53:20.567Z"
+    }
+  ],
+  "orders": [],
+  "orderItems": [],
+  "disruptions": [
+    {
+      "id": "dis-1793354000568",
+      "disruptionCode": "DIS-BRK-0567",
+      "disruptionType": "Transportation Disruption",
+      "relatedShipmentId": "shp-1793354000545",
+      "affectedWarehouseId": "wh-chn",
+      "affectedProductId": "prd-1793354000540",
+      "expectedDelayDays": 4,
+      "shortageQuantity": 500,
+      "severity": "Critical",
+      "description": "Autonomous Breakdown Alert: Lorry LOR-TX-500 carrying 500 units of Automotive Microcontroller Q-100 experienced confirmed Engine Failure at Active Highway Corridor. In-transit delivery halted.",
+      "reportedDate": "2026-10-30",
+      "status": "Active",
+      "isDemo": false,
+      "createdAt": "2026-10-30T09:53:20.567Z",
+      "updatedAt": "2026-10-30T09:53:20.567Z"
+    }
+  ],
+  "recoveryPlans": [
+    {
+      "id": "rec-1793354000568",
+      "planCode": "REC-BRK-0568",
+      "disruptionId": "dis-1793354000568",
+      "planType": "Expedited Shipping",
+      "proposedByUserId": "usr_admin",
+      "proposedByName": "Sarah Chen (Admin)",
+      "status": "Pending Approval",
+      "estimatedCost": 1450,
+      "estimatedDelayReductionDays": 3,
+      "ordersRecoveredCount": 1,
+      "recoveryPercentage": 85,
+      "feasibilityScore": 92,
+      "notes": "Dispatch relief tractor-trailer to Active Highway Corridor to cross-dock 500 units and complete final delivery.",
+      "items": [
+        {
+          "id": "item-1793354000568-1",
+          "recoveryPlanId": "rec-1793354000568",
+          "itemAction": "Dispatch Relief Hauler & Cross-Dock Cargo",
+          "targetEntityId": "shp-1793354000545",
+          "productId": "prd-1793354000540",
+          "quantity": 500,
+          "cost": 1450
+        }
+      ],
+      "createdAt": "2026-10-30T09:53:20.567Z",
+      "updatedAt": "2026-10-30T09:53:20.567Z"
+    }
+  ],
+  "recoveryPlanItems": [],
+  "approvals": [],
+  "notifications": [
+    {
+      "id": "NOTIF-1793354000596-561",
+      "targetRole": "ALL",
+      "title": "Journey Resumed: LOR-TX-500",
+      "message": "Lorry LOR-TX-500 has resumed transport at 64 km/h en route to destination.",
+      "type": "success",
+      "isRead": false,
+      "link": "/lorry-gps",
+      "createdAt": "2026-10-30T09:53:20.596Z"
+    },
+    {
+      "id": "NOTIF-1793354000591-184",
+      "targetRole": "ALL",
+      "title": "Lorry Recovered: LOR-TX-500",
+      "message": "Mechanical issue resolved for LOR-TX-500. Ready to resume transit.",
+      "type": "success",
+      "isRead": false,
+      "link": "/lorry-gps",
+      "createdAt": "2026-10-30T09:53:20.591Z"
+    },
+    {
+      "id": "NOTIF-1793354000583-960",
+      "targetRole": "ALL",
+      "title": "Repairing: LOR-TX-500",
+      "message": "Technician on-site. Active field repair underway for LOR-TX-500.",
+      "type": "info",
+      "isRead": false,
+      "link": "/lorry-gps",
+      "createdAt": "2026-10-30T09:53:20.583Z"
+    },
+    {
+      "id": "NOTIF-1793354000576-754",
+      "targetRole": "ALL",
+      "title": "Assistance Requested: LOR-TX-500",
+      "message": "Assistance requested for LOR-TX-500. ETA 25 mins.",
+      "type": "info",
+      "isRead": false,
+      "link": "/lorry-gps",
+      "createdAt": "2026-10-30T09:53:20.576Z"
+    },
+    {
+      "id": "NOTIF-1793354000568-386",
+      "targetRole": "ALL",
+      "title": "Breakdown Confirmed: LOR-TX-500",
+      "message": "Breakdown confirmed for LOR-TX-500. Disruption logged and order risk recalculations initiated across supply chain.",
+      "type": "danger",
+      "isRead": false,
+      "link": "/lorry-gps",
+      "createdAt": "2026-10-30T09:53:20.568Z"
+    },
+    {
+      "id": "NOTIF-1793354000561-554",
+      "targetRole": "ALL",
+      "title": "Breakdown Reported: LOR-TX-500",
+      "message": "Driver reported Engine Failure for Lorry LOR-TX-500: \"Severe radiator overheat and coolant pump failure on I-35\". Dispatch verification required.",
+      "type": "danger",
+      "isRead": false,
+      "link": "/lorry-gps",
+      "createdAt": "2026-10-30T09:53:20.561Z"
+    },
+    {
+      "id": "NOTIF-1793341555820-203",
+      "targetRole": "ALL",
+      "title": "Carrier Webhook Event: DELAYED",
+      "message": "Shipment SHIP-001 update from Chennai Port Checkpoint: 4 days delay.",
+      "type": "danger",
+      "isRead": true,
+      "link": "/shipments",
+      "createdAt": "2026-10-30T06:25:55.820Z"
+    },
+    {
+      "id": "NOTIF-1793341535822-47",
+      "targetRole": "Operations Analyst",
+      "title": "Port Congestion Alert (DIS-002)",
+      "message": "Rotterdam Depot experiencing 6-day inbound customs clearance delays.",
+      "type": "warning",
+      "isRead": true,
+      "link": "/disruptions",
+      "createdAt": "2026-10-30T06:25:35.822Z"
+    },
+    {
+      "id": "NOTIF-1793341535821-186",
+      "targetRole": "Supply Chain Manager",
+      "title": "Recovery Plan REC-001 Pending Approval",
+      "message": "Stock Reallocation plan from Mumbai to Chennai proposed. Needs Supply Chain Manager or Procurement review.",
+      "type": "warning",
+      "isRead": true,
+      "link": "/approvals",
+      "createdAt": "2026-10-30T06:25:35.821Z"
+    },
+    {
+      "id": "NOTIF-1793341535821-495",
+      "targetRole": "ALL",
+      "title": "Critical Supply Disruption Detected (DIS-001)",
+      "message": "Foxconn shipment SHIP-001 delayed by 4 days affecting 4 automotive customer orders at Chennai Central Hub.",
+      "type": "danger",
+      "isRead": true,
+      "link": "/disruptions",
+      "createdAt": "2026-10-30T06:25:35.821Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "LOG-1793356480577-604",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "CREATE_SHIPMENT",
+      "entityType": "Shipment",
+      "entityId": "shp-1793356480577",
+      "details": {
+        "id": "shp-1793356480577",
+        "shipmentCode": "SHIP-NODEST-99",
+        "supplierId": "sup-1793354000532",
+        "productId": "prd-1793354000540",
+        "quantity": 100,
+        "sourceLocation": "Austin, TX",
+        "carrierName": "Swift Freight",
+        "status": "In Transit",
+        "trackingReference": "TRK-SHIP-NODEST-99",
+        "delayDays": 0,
+        "lorryId": "LOR-999-NODEST",
+        "driverName": "Carlos Gomez",
+        "currentLatitude": 32.7767,
+        "currentLongitude": -96.797,
+        "gpsTrackingEnabled": true,
+        "isDemo": false,
+        "createdAt": "2026-10-30T10:34:40.577Z",
+        "updatedAt": "2026-10-30T10:34:40.577Z"
+      },
+      "timestamp": "2026-10-30T10:34:40.577Z"
+    },
+    {
+      "id": "LOG-1793356466367-817",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "SEED_EXAMPLE_SHIPMENT",
+      "entityType": "Shipment",
+      "entityId": "shp_001",
+      "details": {
+        "shipmentCode": "SHIP-001",
+        "lorryNumber": "TRUCK-101"
+      },
+      "timestamp": "2026-10-30T10:34:26.367Z"
+    },
+    {
+      "id": "LOG-1793354000597-799",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "WORKFLOW_TRANSITION",
+      "entityType": "Lorry",
+      "entityId": "lor_1793354000546_450",
+      "details": {
+        "fromStatus": "Normal",
+        "targetStatus": "Journey Resumed",
+        "lorryNumber": "LOR-TX-500"
+      },
+      "timestamp": "2026-10-30T09:53:20.597Z"
+    },
+    {
+      "id": "LOG-1793354000592-175",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "WORKFLOW_TRANSITION",
+      "entityType": "Lorry",
+      "entityId": "lor_1793354000546_450",
+      "details": {
+        "fromStatus": "Recovered",
+        "targetStatus": "Recovered",
+        "lorryNumber": "LOR-TX-500"
+      },
+      "timestamp": "2026-10-30T09:53:20.592Z"
+    },
+    {
+      "id": "LOG-1793354000584-5",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "WORKFLOW_TRANSITION",
+      "entityType": "Lorry",
+      "entityId": "lor_1793354000546_450",
+      "details": {
+        "fromStatus": "Repairing",
+        "targetStatus": "Repairing",
+        "lorryNumber": "LOR-TX-500"
+      },
+      "timestamp": "2026-10-30T09:53:20.584Z"
+    },
+    {
+      "id": "LOG-1793354000576-437",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "WORKFLOW_TRANSITION",
+      "entityType": "Lorry",
+      "entityId": "lor_1793354000546_450",
+      "details": {
+        "fromStatus": "Assistance Requested",
+        "targetStatus": "Assistance Requested",
+        "lorryNumber": "LOR-TX-500"
+      },
+      "timestamp": "2026-10-30T09:53:20.576Z"
+    },
+    {
+      "id": "LOG-1793354000568-577",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "CONFIRM_BREAKDOWN",
+      "entityType": "Lorry",
+      "entityId": "lor_1793354000546_450",
+      "details": {
+        "alertId": "BRK-0560",
+        "lorryNumber": "LOR-TX-500",
+        "disruptionId": "dis-1793354000568"
+      },
+      "timestamp": "2026-10-30T09:53:20.568Z"
+    },
+    {
+      "id": "LOG-1793354000561-316",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "DRIVER_REPORT_BREAKDOWN",
+      "entityType": "Lorry",
+      "entityId": "lor_1793354000546_450",
+      "details": {
+        "breakdownType": "Engine Failure",
+        "description": "Severe radiator overheat and coolant pump failure on I-35",
+        "lorryNumber": "LOR-TX-500"
+      },
+      "timestamp": "2026-10-30T09:53:20.561Z"
+    },
+    {
+      "id": "LOG-1793354000546-794",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "CREATE_SHIPMENT",
+      "entityType": "Shipment",
+      "entityId": "shp-1793354000545",
+      "details": {
+        "id": "shp-1793354000545",
+        "shipmentCode": "SHP-TX-9001",
+        "supplierId": "sup-1793354000532",
+        "productId": "prd-1793354000540",
+        "quantity": 500,
+        "sourceLocation": "Austin, TX",
+        "carrierName": "Lone Star Freight Express",
+        "status": "Delayed",
+        "trackingReference": "TRK-SHP-TX-9001",
+        "delayDays": 4,
+        "lorryId": "LOR-TX-500",
+        "driverName": "Robert Walker",
+        "currentLatitude": 30.2672,
+        "currentLongitude": -97.7431,
+        "gpsTrackingEnabled": true,
+        "isDemo": false,
+        "createdAt": "2026-10-30T09:53:20.545Z",
+        "updatedAt": "2026-10-30T09:53:20.567Z"
+      },
+      "timestamp": "2026-10-30T09:53:20.546Z"
+    },
+    {
+      "id": "LOG-1793354000540-456",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "CREATE_PRODUCT",
+      "entityType": "Product",
+      "entityId": "prd-1793354000540",
+      "details": {
+        "id": "prd-1793354000540",
+        "productCode": "PRD-CHIP-99",
+        "name": "Automotive Microcontroller Q-100",
+        "category": "Semiconductors",
+        "description": "Automotive engine controller unit",
+        "unitCost": 85,
+        "status": "Active",
+        "isDemo": false,
+        "createdAt": "2026-10-30T09:53:20.540Z",
+        "updatedAt": "2026-10-30T09:53:20.540Z"
+      },
+      "timestamp": "2026-10-30T09:53:20.540Z"
+    },
+    {
+      "id": "LOG-1793354000532-569",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "CREATE_SUPPLIER",
+      "entityType": "Supplier",
+      "entityId": "sup-1793354000532",
+      "details": {
+        "id": "sup-1793354000532",
+        "supplierCode": "SUP-TEX-001",
+        "name": "Texas Micro Components",
+        "contactPerson": "Jane Austin",
+        "email": "orders@texasmicro.com",
+        "phone": "+1-512-555-0199",
+        "location": "Austin, TX",
+        "reliabilityScore": 94,
+        "status": "Active",
+        "isDemo": false,
+        "createdAt": "2026-10-30T09:53:20.532Z",
+        "updatedAt": "2026-10-30T09:53:20.532Z"
+      },
+      "timestamp": "2026-10-30T09:53:20.532Z"
+    },
+    {
+      "id": "LOG-1793354000526-491",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "UPDATE_USER_PROFILE",
+      "entityType": "UserProfile",
+      "entityId": "usr_manager",
+      "details": {
+        "previous": {
+          "id": "usr_manager",
+          "email": "manager@chainpulse.ai",
+          "fullName": "Marcus Vance (SC Manager)",
+          "role": "Supply Chain Manager",
+          "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+          "createdAt": "2026-10-30T06:25:35.818Z"
+        },
+        "updated": {
+          "id": "usr_manager",
+          "email": "manager@chainpulse.ai",
+          "fullName": "Marcus Vance (Supply Chain Director)",
+          "role": "Supply Chain Manager",
+          "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+          "createdAt": "2026-10-30T06:25:35.818Z"
+        }
+      },
+      "timestamp": "2026-10-30T09:53:20.526Z"
+    },
+    {
+      "id": "LOG-1793354000510-583",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "UPDATE_USER_PROFILE",
+      "entityType": "UserProfile",
+      "entityId": "usr_admin",
+      "details": {
+        "previous": {
+          "id": "usr_admin",
+          "email": "admin@chainpulse.ai",
+          "fullName": "Sarah Chen (Admin)",
+          "role": "Administrator",
+          "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+          "createdAt": "2026-10-30T06:25:35.818Z"
+        },
+        "updated": {
+          "id": "usr_admin",
+          "email": "president@chainpulse.ai",
+          "fullName": "Dr. Sarah Chen (President & CEO)",
+          "role": "Administrator",
+          "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+          "createdAt": "2026-10-30T06:25:35.818Z"
+        }
+      },
+      "timestamp": "2026-10-30T09:53:20.510Z"
+    },
+    {
+      "id": "LOG-1793342954439-218",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "DELETE_PRODUCT",
+      "entityType": "Product",
+      "entityId": "prd-1793342950587",
+      "details": {
+        "id": "prd-1793342950587",
+        "productCode": "PRD-001",
+        "name": "Precision Micro-Sensor X1",
+        "category": "Electronics",
+        "description": "High speed sensor",
+        "unitCost": 45,
+        "status": "Active",
+        "isDemo": false,
+        "createdAt": "2026-10-30T06:49:10.587Z",
+        "updatedAt": "2026-10-30T06:49:10.587Z"
+      },
+      "timestamp": "2026-10-30T06:49:14.439Z"
+    },
+    {
+      "id": "LOG-1793342950587-777",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "CREATE_PRODUCT",
+      "entityType": "Product",
+      "entityId": "prd-1793342950587",
+      "details": {
+        "id": "prd-1793342950587",
+        "productCode": "PRD-001",
+        "name": "Precision Micro-Sensor X1",
+        "category": "Electronics",
+        "description": "High speed sensor",
+        "unitCost": 45,
+        "status": "Active",
+        "isDemo": false,
+        "createdAt": "2026-10-30T06:49:10.587Z",
+        "updatedAt": "2026-10-30T06:49:10.587Z"
+      },
+      "timestamp": "2026-10-30T06:49:10.587Z"
+    },
+    {
+      "id": "LOG-1793342943942-960",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "DELETE_SUPPLIER",
+      "entityType": "Supplier",
+      "entityId": "sup-1793342938608",
+      "details": {
+        "id": "sup-1793342938608",
+        "supplierCode": "SUP-001",
+        "name": "Acme Logistics Test",
+        "contactPerson": "Alice Johnson",
+        "email": "alice@acme.com",
+        "phone": "+1-555-0123",
+        "location": "Chicago, USA",
+        "reliabilityScore": 95,
+        "status": "Active",
+        "isDemo": false,
+        "createdAt": "2026-10-30T06:48:58.608Z",
+        "updatedAt": "2026-10-30T06:48:58.608Z"
+      },
+      "timestamp": "2026-10-30T06:49:03.942Z"
+    },
+    {
+      "id": "LOG-1793342938608-288",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "CREATE_SUPPLIER",
+      "entityType": "Supplier",
+      "entityId": "sup-1793342938608",
+      "details": {
+        "id": "sup-1793342938608",
+        "supplierCode": "SUP-001",
+        "name": "Acme Logistics Test",
+        "contactPerson": "Alice Johnson",
+        "email": "alice@acme.com",
+        "phone": "+1-555-0123",
+        "location": "Chicago, USA",
+        "reliabilityScore": 95,
+        "status": "Active",
+        "isDemo": false,
+        "createdAt": "2026-10-30T06:48:58.608Z",
+        "updatedAt": "2026-10-30T06:48:58.608Z"
+      },
+      "timestamp": "2026-10-30T06:48:58.608Z"
+    },
+    {
+      "id": "LOG-1793342927519-141",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "CLEAR_ALL_DATA",
+      "entityType": "System",
+      "entityId": "ALL",
+      "details": {
+        "action": "Cleaned all application database records"
+      },
+      "timestamp": "2026-10-30T06:48:47.520Z"
+    },
+    {
+      "id": "LOG-1793342466438-336",
+      "userId": "usr_admin",
+      "userName": "Sarah Chen (Admin)",
+      "userRole": "Administrator",
+      "action": "UPDATE_SUPPLIER",
+      "entityType": "Supplier",
+      "entityId": "sup-fox",
+      "details": {
+        "previous": {
+          "id": "sup-fox",
+          "supplierCode": "SUP-001",
+          "name": "Foxconn Microelectronics Ltd",
+          "contactPerson": "Terry Kuo",
+          "email": "t.kuo@foxconn-sc.com",
+          "phone": "+886-2-2268-3466",
+          "location": "Taipei, Taiwan",
+          "reliabilityScore": 78.5,
+          "status": "Active",
+          "isDemo": true,
+          "createdAt": "2026-10-01T08:00:00Z",
+          "updatedAt": "2026-10-01T08:00:00Z"
+        },
+        "updated": {
+          "id": "sup-fox",
+          "supplierCode": "SUP-001",
+          "name": "Foxconn Microelectronics Ltd",
+          "contactPerson": "Terry Kuo",
+          "email": "t.kuo@foxconn-sc.com",
+          "phone": "+886-2-2268-3466",
+          "location": "Taipei, Taiwan",
+          "reliabilityScore": 78.5,
+          "status": "Active",
+          "isDemo": true,
+          "createdAt": "2026-10-01T08:00:00Z",
+          "updatedAt": "2026-10-01T08:00:00Z"
+        }
+      },
+      "timestamp": "2026-10-30T06:41:06.438Z"
+    },
+    {
+      "id": "LOG-1793341555821-294",
+      "userId": "carrier_webhook_service",
+      "userName": "Simulated Carrier Service",
+      "userRole": "Operations Analyst",
+      "action": "CARRIER_WEBHOOK_EVENT",
+      "entityType": "Shipment",
+      "entityId": "SHIP-001",
+      "details": {
+        "shipment_id": "SHIP-001",
+        "event": "DELAYED",
+        "delay_days": 4,
+        "location": "Chennai Port Checkpoint"
+      },
+      "timestamp": "2026-10-30T06:25:55.821Z"
+    },
+    {
+      "id": "LOG-1793341535822-370",
+      "userId": "system",
+      "userName": "System Initializer",
+      "userRole": "Administrator",
+      "action": "SEED_DEMO_DATA",
+      "entityType": "System",
+      "entityId": "INITIAL_SEED",
+      "details": {
+        "suppliersCount": 10,
+        "productsCount": 15,
+        "warehousesCount": 5,
+        "inventoryCount": 30,
+        "shipmentsCount": 30,
+        "ordersCount": 40,
+        "disruptionsCount": 2
+      },
+      "timestamp": "2026-10-30T06:25:35.822Z"
+    }
+  ],
+  "carrierWebhookEvents": [],
+  "settings": {
+    "riskWeights": {
+      "delayWeight": 0.25,
+      "deadlineWeight": 0.25,
+      "shortageWeight": 0.2,
+      "stockWeight": 0.15,
+      "reliabilityWeight": 0.15
+    },
+    "supabaseConfig": {
+      "url": "",
+      "anonKey": "",
+      "serviceRoleKey": "",
+      "connected": false
+    },
+    "stoppageThresholdMinutes": 10
+  },
+  "lorries": [
+    {
+      "id": "lor_1793356480577_885",
+      "lorryNumber": "LOR-999-NODEST",
+      "model": "Heavy Duty Intermodal Lorry",
+      "capacityTons": 28,
+      "carrierName": "Swift Freight",
+      "driverName": "Carlos Gomez",
+      "driverPhone": "+1 (555) 019-7721",
+      "driverContactNumber": "+1 (555) 019-7721",
+      "status": "Moving",
+      "movementStatus": "Moving",
+      "workflowStatus": "Normal",
+      "locationSource": "GPS_DEVICE",
+      "currentShipmentId": "shp-1793356480577",
+      "currentShipmentCode": "SHIP-NODEST-99",
+      "originLocation": "Austin, TX",
+      "lastTelemetry": {
+        "id": "tel_1793356480577",
+        "latitude": 32.7767,
+        "longitude": -96.797,
+        "speed": 62,
+        "speed_kmh": 62,
+        "heading": 90,
+        "engineStatus": "Running",
+        "engineTemp": 86,
+        "fuelLevel": 88,
+        "batteryVoltage": 24.2,
+        "locationName": "Active Logistics Corridor",
+        "timestamp": "2026-10-30T10:34:40.577Z",
+        "locationSource": "GPS_DEVICE",
+        "movement_status": "Moving",
+        "isSimulated": false
+      },
+      "recentWaypoints": [
+        {
+          "latitude": 32.7767,
+          "longitude": -96.797,
+          "timestamp": "2026-10-30T10:34:40.577Z"
+        }
+      ],
+      "createdAt": "2026-10-30T10:34:40.577Z",
+      "updatedAt": "2026-10-30T10:34:40.577Z"
+    },
+    {
+      "id": "lor_truck_101",
+      "lorryNumber": "TRUCK-101",
+      "model": "Tata Prima 5530.S Euro 6",
+      "capacityTons": 35,
+      "carrierName": "Deccan Express Logistics",
+      "driverName": "Ravi Kumar",
+      "driverPhone": "+91 98450 12345",
+      "driverContactNumber": "+91 98450 12345",
+      "status": "Moving",
+      "movementStatus": "Moving",
+      "workflowStatus": "Normal",
+      "locationSource": "GPS_DEVICE",
+      "currentShipmentId": "shp_001",
+      "currentShipmentCode": "SHIP-001",
+      "originLocation": "Chennai Container Freight Station, Chennai, TN, India",
+      "currentLocationAddress": "NH 48 High-Speed Freight Corridor, Sriperumbudur near Chennai, TN, India",
+      "destinationLocation": "Bengaluru, Karnataka, India",
+      "destinationAddress": "Tech Gateway Logistics Park, 42 Outer Ring Road, Bellandur, Bengaluru, Karnataka, 560103, India",
+      "destinationLatitude": 12.9716,
+      "destinationLongitude": 77.5946,
+      "expectedDeliveryDate": "2026-10-30",
+      "expectedDeliveryTime": "18:00",
+      "lastTelemetry": {
+        "id": "tel_trk101_1793356466367",
+        "latitude": 13.0827,
+        "longitude": 80.2707,
+        "speed": 64,
+        "speed_kmh": 64,
+        "heading": 260,
+        "engineStatus": "Running",
+        "engineTemp": 87,
+        "fuelLevel": 74,
+        "batteryVoltage": 24.3,
+        "locationName": "NH 48 High-Speed Freight Corridor, Sriperumbudur near Chennai, TN, India",
+        "timestamp": "2026-10-30T10:34:26.367Z",
+        "locationSource": "GPS_DEVICE",
+        "movement_status": "Moving",
+        "isSimulated": false
+      },
+      "recentWaypoints": [
+        {
+          "latitude": 13.1001,
+          "longitude": 80.2905,
+          "timestamp": "2026-10-30T08:34:26.367Z"
+        },
+        {
+          "latitude": 13.0827,
+          "longitude": 80.2707,
+          "timestamp": "2026-10-30T10:34:26.367Z"
+        }
+      ],
+      "createdAt": "2026-10-30T10:34:26.367Z",
+      "updatedAt": "2026-10-30T10:34:26.367Z"
+    },
+    {
+      "id": "lor_1793354000546_450",
+      "lorryNumber": "LOR-TX-500",
+      "model": "Heavy Duty Intermodal Lorry",
+      "capacityTons": 28,
+      "carrierName": "Lone Star Freight Express",
+      "driverName": "Robert Walker",
+      "driverPhone": "+1 (555) 019-7721",
+      "status": "Moving",
+      "movementStatus": "Moving",
+      "workflowStatus": "Normal",
+      "locationSource": "GPS_DEVICE",
+      "currentShipmentId": "shp-1793354000545",
+      "currentShipmentCode": "SHP-TX-9001",
+      "originLocation": "Austin, TX",
+      "lastTelemetry": {
+        "id": "tel_1793354000546",
+        "latitude": 30.2672,
+        "longitude": -97.7431,
+        "speed": 64,
+        "speed_kmh": 64,
+        "heading": 90,
+        "engineStatus": "Running",
+        "engineTemp": 88,
+        "fuelLevel": 88,
+        "batteryVoltage": 24.2,
+        "locationName": "Active Highway Corridor",
+        "timestamp": "2026-10-30T09:53:20.545Z",
+        "locationSource": "GPS_DEVICE",
+        "movement_status": "Moving",
+        "isSimulated": false
+      },
+      "recentWaypoints": [
+        {
+          "latitude": 30.2672,
+          "longitude": -97.7431,
+          "timestamp": "2026-10-30T09:53:20.545Z"
+        }
+      ],
+      "createdAt": "2026-10-30T09:53:20.545Z",
+      "updatedAt": "2026-10-30T09:53:20.596Z",
+      "breakdownType": "Engine Failure",
+      "breakdownDescription": "Severe radiator overheat and coolant pump failure on I-35",
+      "breakdownReportedAt": "2026-10-30T09:53:20.560Z",
+      "activeBreakdown": {
+        "id": "BRK-0560",
+        "lorryId": "lor_1793354000546_450",
+        "lorryNumber": "LOR-TX-500",
+        "shipmentId": "shp-1793354000545",
+        "shipmentCode": "SHP-TX-9001",
+        "reportedAt": "2026-10-30T09:53:20.560Z",
+        "breakdownTime": "2026-10-30T09:53:20.560Z",
+        "severity": "Critical",
+        "breakdownType": "Engine Failure",
+        "description": "Severe radiator overheat and coolant pump failure on I-35 [REPAIR IN PROGRESS: Technician on-site diagnosing vehicle.]",
+        "location": {
+          "latitude": 30.2672,
+          "longitude": -97.7431,
+          "name": "Active Highway Corridor"
+        },
+        "workflowStatus": "Recovered",
+        "status": "Resolved",
+        "disruptionId": "dis-1793354000568",
+        "dispatchedAssistance": {
+          "serviceProvider": "Highway Heavy Fleet Roadside Rescue",
+          "etaMinutes": 25,
+          "mechanicName": "Master Tech Team",
+          "contactPhone": "+1 (800) 555-HELP"
+        },
+        "resolvedAt": "2026-10-30T09:53:20.591Z",
+        "resolutionNotes": "Vehicle systems repaired and safety inspection passed."
+      }
+    },
+    {
+      "id": "lor_1",
+      "lorryNumber": "LOR-8492-TX",
+      "model": "Volvo FH16 Globetrotter 540",
+      "capacityTons": 26,
+      "carrierName": "SwiftLogistics Global",
+      "driverName": "Robert Martinez",
+      "driverPhone": "+1 (312) 555-0149",
+      "status": "Moving",
+      "currentShipmentCode": "SHP-9021",
+      "originLocation": "Chicago Industrial Gateway",
+      "destinationLocation": "Indianapolis Depot (WH-IND-01)",
+      "destinationWarehouse": "WH-IND-01",
+      "expectedDeliveryTime": "2026-10-30T11:41:11.103Z",
+      "lastTelemetry": {
+        "id": "tel_1793349079801_212",
+        "lorryId": "lor_1",
+        "latitude": 40.4101,
+        "longitude": -86.8752,
+        "speed": 70,
+        "heading": 146,
+        "engineStatus": "Running",
+        "engineTemp": 88,
+        "fuelLevel": 77.8,
+        "batteryVoltage": 24.41559787975108,
+        "locationName": "I-65 Southbound, Mile 142 near Lafayette, IN",
+        "timestamp": "2026-10-30T08:31:19.801Z",
+        "isSimulated": true
+      },
+      "recentWaypoints": [
+        {
+          "latitude": 41.5868,
+          "longitude": -87.3468,
+          "timestamp": "2026-10-30T06:31:11.103Z"
+        },
+        {
+          "latitude": 40.9525,
+          "longitude": -87.1517,
+          "timestamp": "2026-10-30T07:31:11.103Z"
+        },
+        {
+          "latitude": 40.4173,
+          "longitude": -86.8752,
+          "timestamp": "2026-10-30T08:31:11.103Z"
+        },
+        {
+          "latitude": 40.4101,
+          "longitude": -86.8752,
+          "timestamp": "2026-10-30T08:31:19.801Z"
+        }
+      ],
+      "createdAt": "2026-10-30T08:31:11.103Z",
+      "updatedAt": "2026-10-30T08:31:19.801Z"
+    },
+    {
+      "id": "lor_2",
+      "lorryNumber": "LOR-3105-CA",
+      "model": "Freightliner Cascadia 126",
+      "capacityTons": 32,
+      "carrierName": "Apex Freight Express",
+      "driverName": "Carlos Mendez",
+      "driverPhone": "+1 (213) 555-0821",
+      "status": "Moving",
+      "currentShipmentCode": "SHP-4482",
+      "originLocation": "Port of Long Beach Terminal B",
+      "destinationLocation": "Phoenix Regional Distribution WH-PHX-02",
+      "destinationWarehouse": "WH-PHX-02",
+      "expectedDeliveryTime": "2026-10-30T13:11:11.103Z",
+      "lastTelemetry": {
+        "latitude": 33.8303,
+        "longitude": -116.5453,
+        "speed": 76,
+        "heading": 98,
+        "engineStatus": "Running",
+        "engineTemp": 92,
+        "fuelLevel": 64,
+        "batteryVoltage": 24,
+        "locationName": "I-10 Eastbound near Palm Springs, CA",
+        "timestamp": "2026-10-30T08:31:11.103Z",
+        "isSimulated": false
+      },
+      "recentWaypoints": [
+        {
+          "latitude": 33.7701,
+          "longitude": -118.1937,
+          "timestamp": "2026-10-30T05:31:11.103Z"
+        },
+        {
+          "latitude": 34.0633,
+          "longitude": -117.6509,
+          "timestamp": "2026-10-30T07:01:11.104Z"
+        },
+        {
+          "latitude": 33.8303,
+          "longitude": -116.5453,
+          "timestamp": "2026-10-30T08:31:11.103Z"
+        }
+      ],
+      "createdAt": "2026-10-30T08:31:11.103Z",
+      "updatedAt": "2026-10-30T08:31:11.103Z"
+    },
+    {
+      "id": "lor_3",
+      "lorryNumber": "LOR-9921-OH",
+      "model": "Peterbilt 579 UltraLoft",
+      "capacityTons": 28,
+      "carrierName": "Velocity Line Haul",
+      "driverName": "Arthur Pendelton",
+      "driverPhone": "+1 (614) 555-0394",
+      "status": "Breakdown",
+      "currentShipmentCode": "SHP-7719",
+      "originLocation": "Detroit Automotive Logistics Hub",
+      "destinationLocation": "Cincinnati Distribution Hub (WH-CIN-01)",
+      "destinationWarehouse": "WH-CIN-01",
+      "expectedDeliveryTime": "2026-10-30T14:31:11.104Z",
+      "lastTelemetry": {
+        "latitude": 39.9612,
+        "longitude": -82.9988,
+        "speed": 0,
+        "heading": 180,
+        "engineStatus": "Failure",
+        "engineTemp": 114,
+        "fuelLevel": 45,
+        "batteryVoltage": 23.1,
+        "locationName": "I-71 Southbound Shoulder, Mile 104 near Columbus, OH",
+        "timestamp": "2026-10-30T08:31:11.103Z",
+        "isSimulated": false
+      },
+      "recentWaypoints": [
+        {
+          "latitude": 41.6528,
+          "longitude": -83.5379,
+          "timestamp": "2026-10-30T05:31:11.104Z"
+        },
+        {
+          "latitude": 40.7426,
+          "longitude": -82.5154,
+          "timestamp": "2026-10-30T07:19:11.104Z"
+        },
+        {
+          "latitude": 39.9612,
+          "longitude": -82.9988,
+          "timestamp": "2026-10-30T08:31:11.103Z"
+        }
+      ],
+      "createdAt": "2026-10-30T08:31:11.103Z",
+      "updatedAt": "2026-10-30T08:31:11.103Z",
+      "activeBreakdown": {
+        "id": "BRK-9921-01",
+        "lorryId": "lor_3",
+        "lorryNumber": "LOR-9921-OH",
+        "shipmentCode": "SHP-7719",
+        "reportedAt": "2026-10-30T07:56:11.104Z",
+        "severity": "High",
+        "breakdownType": "Engine Overheating",
+        "description": "Coolant hose rupture leading to sudden spike in engine temp (114°C). Vehicle immobilized on shoulder of I-71 South.",
+        "location": {
+          "latitude": 39.9612,
+          "longitude": -82.9988,
+          "name": "I-71 Southbound Shoulder, Mile 104 near Columbus, OH"
+        },
+        "status": "Assistance Dispatched",
+        "dispatchedAssistance": {
+          "serviceProvider": "Buckeye Commercial Fleet Emergency Assistance",
+          "etaMinutes": 14,
+          "mechanicName": "Dave Kowalski",
+          "contactPhone": "+1 (614) 555-9182"
+        }
+      }
+    },
+    {
+      "id": "lor_4",
+      "lorryNumber": "LOR-5512-PA",
+      "model": "Kenworth T680 Next Gen",
+      "capacityTons": 24,
+      "carrierName": "MetroTrans Carrier",
+      "driverName": "Elena Rostova",
+      "driverPhone": "+1 (215) 555-0912",
+      "status": "Stopped",
+      "currentShipmentCode": "SHP-1204",
+      "originLocation": "New York Gateway Terminal",
+      "destinationLocation": "Pittsburgh Freight WH-PIT-01",
+      "destinationWarehouse": "WH-PIT-01",
+      "expectedDeliveryTime": "2026-10-30T15:31:11.104Z",
+      "lastTelemetry": {
+        "latitude": 40.2732,
+        "longitude": -76.8867,
+        "speed": 0,
+        "heading": 0,
+        "engineStatus": "Idling",
+        "engineTemp": 78,
+        "fuelLevel": 82,
+        "batteryVoltage": 24.5,
+        "locationName": "Pilot Flying J Freight Rest Stop, Harrisburg, PA",
+        "timestamp": "2026-10-30T08:31:11.103Z",
+        "isSimulated": false
+      },
+      "recentWaypoints": [
+        {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "timestamp": "2026-10-30T04:31:11.104Z"
+        },
+        {
+          "latitude": 40.6023,
+          "longitude": -75.4714,
+          "timestamp": "2026-10-30T06:31:11.104Z"
+        },
+        {
+          "latitude": 40.2732,
+          "longitude": -76.8867,
+          "timestamp": "2026-10-30T08:31:11.103Z"
+        }
+      ],
+      "createdAt": "2026-10-30T08:31:11.103Z",
+      "updatedAt": "2026-10-30T08:31:11.103Z"
+    },
+    {
+      "id": "lor_5",
+      "lorryNumber": "LOR-7740-GA",
+      "model": "Mack Anthem 70-inch Sleeper",
+      "capacityTons": 30,
+      "carrierName": "Southeastern Fleet Corp",
+      "driverName": "James Wilson",
+      "driverPhone": "+1 (404) 555-0673",
+      "status": "Recovered",
+      "currentShipmentCode": "SHP-3310",
+      "originLocation": "Atlanta Distribution Mega Center",
+      "destinationLocation": "Savannah Deepwater Port Terminal",
+      "destinationWarehouse": "WH-SAV-01",
+      "expectedDeliveryTime": "2026-10-30T11:01:11.104Z",
+      "lastTelemetry": {
+        "latitude": 32.8407,
+        "longitude": -83.6324,
+        "speed": 62,
+        "heading": 135,
+        "engineStatus": "Running",
+        "engineTemp": 86,
+        "fuelLevel": 58,
+        "batteryVoltage": 24.1,
+        "locationName": "I-75 Southbound near Macon, GA (Resumed after tire service)",
+        "timestamp": "2026-10-30T08:31:11.103Z",
+        "isSimulated": false
+      },
+      "recentWaypoints": [
+        {
+          "latitude": 33.749,
+          "longitude": -84.388,
+          "timestamp": "2026-10-30T05:31:11.104Z"
+        },
+        {
+          "latitude": 33.3287,
+          "longitude": -84.1485,
+          "timestamp": "2026-10-30T07:01:11.104Z"
+        },
+        {
+          "latitude": 32.8407,
+          "longitude": -83.6324,
+          "timestamp": "2026-10-30T08:31:11.103Z"
+        }
+      ],
+      "createdAt": "2026-10-30T08:31:11.103Z",
+      "updatedAt": "2026-10-30T08:31:11.103Z"
+    }
+  ],
+  "breakdownAlerts": [
+    {
+      "id": "BRK-0560",
+      "lorryId": "lor_1793354000546_450",
+      "lorryNumber": "LOR-TX-500",
+      "shipmentId": "shp-1793354000545",
+      "shipmentCode": "SHP-TX-9001",
+      "reportedAt": "2026-10-30T09:53:20.560Z",
+      "breakdownTime": "2026-10-30T09:53:20.560Z",
+      "severity": "Critical",
+      "breakdownType": "Engine Failure",
+      "description": "Severe radiator overheat and coolant pump failure on I-35 [REPAIR IN PROGRESS: Technician on-site diagnosing vehicle.]",
+      "location": {
+        "latitude": 30.2672,
+        "longitude": -97.7431,
+        "name": "Active Highway Corridor"
+      },
+      "workflowStatus": "Recovered",
+      "status": "Resolved",
+      "disruptionId": "dis-1793354000568",
+      "dispatchedAssistance": {
+        "serviceProvider": "Highway Heavy Fleet Roadside Rescue",
+        "etaMinutes": 25,
+        "mechanicName": "Master Tech Team",
+        "contactPhone": "+1 (800) 555-HELP"
+      },
+      "resolvedAt": "2026-10-30T09:53:20.591Z",
+      "resolutionNotes": "Vehicle systems repaired and safety inspection passed."
+    },
+    {
+      "id": "BRK-9921-01",
+      "lorryId": "lor_3",
+      "lorryNumber": "LOR-9921-OH",
+      "shipmentCode": "SHP-7719",
+      "reportedAt": "2026-10-30T07:56:11.104Z",
+      "severity": "High",
+      "breakdownType": "Engine Overheating",
+      "description": "Coolant hose rupture leading to sudden spike in engine temp (114°C). Vehicle immobilized on shoulder of I-71 South.",
+      "location": {
+        "latitude": 39.9612,
+        "longitude": -82.9988,
+        "name": "I-71 Southbound Shoulder, Mile 104 near Columbus, OH"
+      },
+      "status": "Assistance Dispatched",
+      "dispatchedAssistance": {
+        "serviceProvider": "Buckeye Commercial Fleet Emergency Assistance",
+        "etaMinutes": 14,
+        "mechanicName": "Dave Kowalski",
+        "contactPhone": "+1 (614) 555-9182"
+      }
+    }
+  ],
+  "lorryTelemetryHistory": [
+    {
+      "id": "tel_1793349079801_212",
+      "lorryId": "lor_1",
+      "latitude": 40.4101,
+      "longitude": -86.8752,
+      "speed": 70,
+      "heading": 146,
+      "engineStatus": "Running",
+      "engineTemp": 88,
+      "fuelLevel": 77.8,
+      "batteryVoltage": 24.41559787975108,
+      "locationName": "I-65 Southbound, Mile 142 near Lafayette, IN",
+      "timestamp": "2026-10-30T08:31:19.801Z",
+      "isSimulated": true
+    }
+  ],
+  "gpsHistory": [
+    {
+      "id": "gps_1793356480577_101",
+      "shipment_id": "shp-1793356480577",
+      "lorry_id": "LOR-999-NODEST",
+      "driver_name": "Carlos Gomez",
+      "latitude": 32.7767,
+      "longitude": -96.797,
+      "speed_kmh": 62,
+      "movement_status": "Moving",
+      "gps_timestamp": "2026-10-30T10:34:40.577Z",
+      "location_source": "GPS_DEVICE",
+      "created_at": "2026-10-30T10:34:40.577Z",
+      "updated_at": "2026-10-30T10:34:40.577Z"
+    },
+    {
+      "id": "gps_trk101_1793356466367",
+      "shipment_id": "shp_001",
+      "lorry_id": "TRUCK-101",
+      "driver_name": "Ravi Kumar",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "speed_kmh": 64,
+      "movement_status": "Moving",
+      "gps_timestamp": "2026-10-30T10:34:26.367Z",
+      "location_source": "GPS_DEVICE",
+      "created_at": "2026-10-30T10:34:26.367Z"
+    },
+    {
+      "id": "gps_1793354000546_541",
+      "shipment_id": "shp-1793354000545",
+      "lorry_id": "LOR-TX-500",
+      "driver_name": "Robert Walker",
+      "latitude": 30.2672,
+      "longitude": -97.7431,
+      "speed_kmh": 62,
+      "movement_status": "Moving",
+      "gps_timestamp": "2026-10-30T09:53:20.545Z",
+      "location_source": "GPS_DEVICE",
+      "created_at": "2026-10-30T09:53:20.545Z",
+      "updated_at": "2026-10-30T09:53:20.545Z"
+    }
+  ]
+}
